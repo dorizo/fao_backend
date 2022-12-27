@@ -1,0 +1,88 @@
+[
+  {
+    "module": "Management User",
+    "permission": [
+      { "permission": "RROLE", "description": "Read role" },
+      { "permission": "CROLE", "description": "Create new role"},
+      { "permission": "UROLE", "description": "Update role"},
+      { "permission": "DROLE", "description": "Delete role"},
+      { "permission": "RROLEPERMISSION", "description": "Read list permission from role"},
+      { "permission": "CROLEPERMISSION", "description": "Add permission to role"},
+      { "permission": "DROLEPERMISSION", "description": "Delete permission from role"},
+      { "permission": "RUSER", "description": "Read user" },
+      { "permission": "CUSER", "description": "Create new user"},
+      { "permission": "UUSER", "description": "Update user"},
+      { "permission": "DUSER", "description": "Delete user"},
+      { "permission": "RROLEUSER", "description": "Read list role from user"},
+      { "permission": "CROLEUSER", "description": "Add role to user"},
+      { "permission": "DROLEUSER", "description": "Delete role from user"},
+      { "permission": "RUSERPERMISSION", "description": "Read list special permission from user"},
+      { "permission": "CUSERPERMISSION", "description": "Add special permission to user"},
+      { "permission": "DUSERPERMISSION", "description": "Delete special permission from user"},
+      { "permission": "RPERMISSION", "description": "Read list permission"},
+      { "permission": "RPERMISSIONWITHMODULE", "description": "Read list permission with module"},
+      { "permission": "RPERMISSIONBYMODULE", "description": "Read list permission by module"}
+
+    ]
+  },
+  {
+    "module": "Master",
+    "permission": [
+      { "permission": "RJENISSAMPAH", "description": "Lihat semua jenis sampah" },
+      { "permission": "CJENISSAMPAH", "description": "menambah jenis sampah"},
+      { "permission": "UJENISSAMPAH", "description": "Mengubah jenis sampah"},
+      { "permission": "DJENISSAMPAH", "description": "Menghapus jenis sampah"},
+      { "permission": "RDASHBOARDMAP", "description": "Lihat map dan detail nya"}
+    ]
+  },
+  {
+    "module":"Fasilitator",
+    "permission": [
+      { "permission": "RFASILITATOR", "description": "Lihat fasilitator" },
+      { "permission": "CFASILITATOR", "description": "menambah fasilitator"},
+      { "permission": "UFASILITATOR", "description": "Mengubah fasilitator"},
+      { "permission": "DFASILITATOR", "description": "Menghapus fasilitator"},
+      { "permission": "RMITRANOTYETVERIFBYFASILITATOR", "description": "Lihat semua data mitra yang belum diverifiasi oleh fasilitator"},
+      { "permission": "VERIFMITRABYFASILITATOR", "description": "Verifikasi mitra oleh fasilitator"},
+      { "permission": "RALLMITRAINFASILITATOR", "description": "Lihat semua mitra dari sisi fasilitator"},
+      { "permission": "RDETAILMITRAINFASILITATOR", "description": "Lihat detail mitra dari sisi fasilitator"},
+      { "permission": "CMITRABYFASILITATOR", "description": "Menambah mitra dari sisi fasilitator"},
+      { "permission": "DMITRABYFASILITATOR", "description": "Menghapus mitra dari sisi fasilitator"},
+      { "permission": "RKUNJUNGAN", "description": "Lihat semua kunjungan" },
+      { "permission": "CKUNJUNGAN", "description": "menambah kunjungan"},
+      { "permission": "UKUNJUNGAN", "description": "Mengubah kunjungan"},
+      { "permission": "DKUNJUNGAN", "description": "Menghapus kunjungan"}
+    ]
+  },
+  {
+    "module": "Mitra",
+    "permission": [
+      { "permission": "RANGGOTA", "description": "Lihat semua anggota" },
+      { "permission": "CANGGOTA", "description": "menambah anggota"},
+      { "permission": "UANGGOTA", "description": "Mengubah anggota"},
+      { "permission": "DANGGOTA", "description": "Menghapus anggota"},
+      { "permission": "RDETAILSELFMITRA", "description": "Lihat data detail untuk mitra"},
+      { "permission": "RMESIN", "description": "Lihat semua mesin" },
+      { "permission": "CMESIN", "description": "menambah mesin"},
+      { "permission": "UMESIN", "description": "Mengubah mesin"},
+      { "permission": "DMESIN", "description": "Menghapus mesin"},
+      { "permission": "RMITRA", "description": "Lihat semua mitra yang sudah di verifikasi oleh fasilitator"},
+      { "permission": "RDETAILMITRA", "description": "Lihat detail mitra yang sudah di verifikasi oleh fasilitator"},
+      { "permission": "ACTIVEACCOUNTMITRA", "description": "Aktifasi akun mitra"},
+      { "permission": "RMASALAH", "description": "Lihat semua masalah" },
+      { "permission": "CMASALAH", "description": "menambah masalah"},
+      { "permission": "UMASALAH", "description": "Mengubah masalah"},
+      { "permission": "DMASALAH", "description": "Menghapus masalah"},
+      { "permission": "CHANGESTATUSMASALAH", "description": "Merubah status masalah"},
+      { "permission": "RBELISAMPAH", "description": "Lihat riwayat beli sampah"},
+      { "permission": "BSAMPAH", "description": "Beli sampah"},
+      { "permission": "RJUALSAMPAH", "description": "Lihat riwayat jual sampah"},
+      { "permission": "JSAMPAH", "description": "Jual sampah"},
+      { "permission": "ACTIVEANGGOTA", "description": "Aktivasi anggota"},
+      { "permission": "RPEMBELI", "description": "Lihat semua pembeli" },
+      { "permission": "CPEMBELI", "description": "menambah pembeli"},
+      { "permission": "UPEMBELI", "description": "Mengubah pembeli"},
+      { "permission": "DPEMBELI", "description": "Menghapus pembeli"}
+    ]
+  }
+]
